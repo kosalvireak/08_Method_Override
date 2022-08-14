@@ -92,6 +92,7 @@ namespace Lesson08Exercises2
             objPhoto = new Photograph(strPhotographer, strCamera, strtitle, fltPrice);
 
             Console.WriteLine(objPhoto.GetPrice());
+            // cannot add string to console since our function return float  
             Console.WriteLine("strPhotographer: {0},  strCamera: {1}, strtitle: {2},  fltPrice: {3}, "
                 , objPhoto.Photographer, objPhoto.Camera, objPhoto.title, objPhoto.Price);
             
